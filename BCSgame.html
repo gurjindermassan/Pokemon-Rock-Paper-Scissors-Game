@@ -2,19 +2,19 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Pokemon GO!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
     </head>
     <body>
-        <div id="game" class="visible">
-            <h1>Play Rock, Paper, Scissors!</h1>
-            <h3>Click one of the images to play.</h3>
+        <div id="game">
+            <h1>Choose your Pokemon!</h1>
             <div id="choices"></div>
             <div id="result" style="display: none"></div>
-            
-            <button onclick="displayComputerChoice">Click</button>
+            <button id="replay">Play again</button>
         </div>
-        <script src="BSCNS.js"></script>
+        <script src="Game.js"></script>
     </body>
 </html>
